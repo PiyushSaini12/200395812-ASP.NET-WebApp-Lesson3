@@ -1,0 +1,17 @@
+﻿@model List<ASP.NET_Lesson_Final_200395812.Models.Car>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Car List</h2>
+
+@foreach (var car in Model)
+{
+
+    @car.Id;
+    @car.Brand;
+    @car.Model;
+    @car.Type;
+    @car.Year;
+}
+
+
